@@ -1,0 +1,54 @@
+{
+    "tables": {
+        "users": {
+            "tableName": "users",
+            "schema": {
+                "id": {
+                    "allowNull": false,
+                    "primaryKey": true,
+                    "autoIncrement": true,
+                    "field": "id",
+                    "seqType": "Sequelize.INTEGER"
+                },
+                "UserId": {
+                    "field": "UserId",
+                    "seqType": "Sequelize.INTEGER"
+                },
+                "FirstName": {
+                    "field": "FirstName",
+                    "seqType": "Sequelize.STRING"
+                },
+                "LastName": {
+                    "field": "LastName",
+                    "seqType": "Sequelize.STRING"
+                },
+                "Username": {
+                    "field": "Username",
+                    "seqType": "Sequelize.STRING"
+                },
+                "Password": {
+                    "field": "Password",
+                    "seqType": "Sequelize.STRING"
+                },
+                "Email": {
+                    "field": "Email",
+                    "seqType": "Sequelize.STRING"
+                },
+                "Admin": {
+                    "field": "Admin",
+                    "seqType": "Sequelize.BOOLEAN"
+                },
+                "createdAt": {
+                    "field": "createdAt",
+                    "seqType": "Sequelize.DATE"
+                },
+                "updatedAt": {
+                    "field": "updatedAt",
+                    "seqType": "Sequelize.DATE"
+                }
+            },
+            "indexes": []
+        }
+    },
+    "revision": 1
+}
